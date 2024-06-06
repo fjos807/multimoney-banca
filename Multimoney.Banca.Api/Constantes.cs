@@ -15,6 +15,7 @@
         public static string NOMBRE_CADENA_CONEXION = "ConexionBaseDatosBanca";
         public static string NOMBRE_SALIDA_ESTADO = "arg_estado";
         public static string NOMBRE_MOVIMIENTO_DEPOSITO = "Crédito";
+        public static string NOMBRE_MOVIMIENTO_RETIRO = "Débito";
 
         #endregion
 
