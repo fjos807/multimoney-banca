@@ -19,6 +19,7 @@ namespace Multimoney.Banca.Api
             servicios.AddTransient<IConsultarCuentaServicio, ConsultarCuentaServicio>();
             servicios.AddTransient<IAgregarDepositoServicio, AgregarDepositoServicio>();
             servicios.AddTransient<IAgregarRetiroServicio, AgregarRetiroServicio>();
+            servicios.AddTransient<ITransferenciaCuentasServicio, TransferenciaCuentasServicio>();
 
             return servicios;
         }

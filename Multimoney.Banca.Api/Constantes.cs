@@ -23,6 +23,7 @@
 
         public static string NOMBRE_SP_OBTENER_CUENTA_COMPLETO = "PROC_CUENTAS_OBTENER_COMPLETO";
         public static string NOMBRE_SP_AGREGAR_MOVIMIENTO_CONTABLE = "PROC_MOVIMIENTOS_CONTABLES_AGREGAR";
+        public static string NOMBRE_SP_AGREGAR_TRANSFERENCIAS = "PROC_TRANSFERENCIAS_AGREGAR";
 
         #endregion
 
@@ -32,7 +33,7 @@
         {
             {"CNE", "La cuenta ingresada no existe en el sistema" },
             {"MNE", "El tipo de movimiento ingresado no existe en el sistema" },
-            {"SNF", "El saldo de la cuenta no es suficiente para realizar la operación indicada" }
+            {"SNS", "El saldo de la cuenta no es suficiente para realizar la operación indicada" }
         };
         
         #endregion
