@@ -9,6 +9,8 @@ CREATE TABLE [dbo].[Cuentas] (
 	[Moneda] char(3) NOT NULL,
 	[Saldo_Disponible] money NOT NULL,
 	[Saldo_Bloqueado] money NOT NULL,
+	[Fecha_Apertura] datetime NOT NULL,
+	[Activo] bit NOT NULL,
 	PRIMARY KEY (Id_Cuenta),
 	FOREIGN KEY (Id_Tipo_Cuenta) REFERENCES [dbo].[Tipos_de_Cuenta](Id_Tipo_Cuenta),
 	FOREIGN KEY (Id_Cliente) REFERENCES [dbo].[Clientes](Id_Cliente)
