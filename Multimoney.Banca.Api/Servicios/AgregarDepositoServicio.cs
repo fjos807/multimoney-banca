@@ -14,7 +14,7 @@ namespace Multimoney.Banca.Api.Servicios
             _repositorio = repositorio;
         }
 
-        public async Task<RespuestaServicio> IngresarNuevoDeposito(AgregarDepositoCuenta agregarDepositoCuenta)
+        public async Task<RespuestaServicio> IngresarNuevoDeposito(AgregarDepositoRetiroCuenta agregarDepositoCuenta)
         {
             try
             {
@@ -35,7 +35,7 @@ namespace Multimoney.Banca.Api.Servicios
                 if (estadoRespuesta == "200")
                 {
                     respuestaServicio.OperacionExitosa = true;
-                    respuestaServicio.Mensaje = "Deposito agregado correctamente";
+                    respuestaServicio.Mensaje = "Depósito agregado correctamente";
                 }
                 else
                 {

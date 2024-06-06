@@ -1,6 +1,6 @@
 ﻿namespace Multimoney.Banca.Api.Modelos
 {
-    public class AgregarDepositoCuenta
+    public class AgregarDepositoRetiroCuenta
     {
         public int TipoIdentificacion { get; set; }
         public string? Identificacion { get; set; }

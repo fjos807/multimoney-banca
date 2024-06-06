@@ -19,7 +19,7 @@ namespace Multimoney.Banca.Api.Controllers
         [ProducesResponseType(200, Type = typeof(object))]
         [ProducesResponseType(400, Type = typeof(object))]
         [ProducesResponseType(500, Type = typeof(object))]
-        async public Task<IActionResult> IngresarDeposito(AgregarDepositoCuenta agregarDepositoCuenta)
+        async public Task<IActionResult> IngresarDeposito(AgregarDepositoRetiroCuenta agregarDepositoCuenta)
         {
             IActionResult respuesta;
             try

@@ -4,6 +4,6 @@ namespace Multimoney.Banca.Api.Interfaces
 {
     public interface IAgregarDepositoServicio
     {
-        Task<RespuestaServicio> IngresarNuevoDeposito(AgregarDepositoCuenta agregarDepositoCuenta);
+        Task<RespuestaServicio> IngresarNuevoDeposito(AgregarDepositoRetiroCuenta agregarDepositoCuenta);
     }
 }
