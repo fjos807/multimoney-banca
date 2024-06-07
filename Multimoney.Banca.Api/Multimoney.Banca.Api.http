@@ -1,0 +1,6 @@
+@Multimoney.Banca.Api_HostAddress = http://localhost:5082
+
+GET {{Multimoney.Banca.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
