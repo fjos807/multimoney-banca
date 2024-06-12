@@ -22,6 +22,8 @@ Lo anterior además de la carpeta Base.Datos (contiene los scripts de SQL utiliz
 
 ## Utilización y accesos
 
+<b>**** Los accesos mostrados a continuación fueron desabilitados temporalmente por temas de costos. Si se desea se pueden habilitar de nuevo ****</b>
+
 Para utilizar el proyecto se tiene disponible el siguiente enlace (publicado en AWS):
  ```sh
   http://multimoney-banca-api.us-east-1.elasticbeanstalk.com/swagger/index.html
